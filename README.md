@@ -5,8 +5,8 @@ The file " supplier_detect_code" requires only two inputs:
 
 
 #Main advantages of the algorithm: 
-1. It is efficient becuase instead of using complete lists, we use sets. For example, the word 'of' is repeated 4 times in the supplier names list. If we compare any invoice word, we should not be comparing it to 'of' 4 times. The use of set removes any repeated elements from the list. 
-2. The algorithm can handle very large data. We use sparse martices which makes removes any problems faced in storage of big data. 
+1. It is efficient because instead of using complete lists, we use sets. For example, the word 'of' is repeated 4 times in the supplier names list. If we compare any invoice word, we should not be comparing it to 'of' 4 times. The use of set removes any repeated elements from the list. 
+2. The algorithm can handle very large data. We use sparse matrices which removes any problems faced in storage of big data. 
 3. The algorithm is based on probability density and joint probability maps.  
 
 #Future possible additions: 
